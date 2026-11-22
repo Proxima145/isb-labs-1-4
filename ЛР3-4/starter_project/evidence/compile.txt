@@ -1,0 +1,2 @@
+JDK 25.0.5.1; javac -encoding UTF-8 --release 8
+exit=0
