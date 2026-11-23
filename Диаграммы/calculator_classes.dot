@@ -1,6 +1,0 @@
-digraph C {
-graph [rankdir=TB]; node [shape=record, fontname="Arial"];
-app [label="{OrderCalculator|VARIANT = 4; VAT_RATE = 25.0\lMAX_QUANTITY = 10000\lMAX_UNIT_PRICE = 5000000\lMAX_DISCOUNT_PERCENT = 30\l|main(String[])\lisValid(int,double,double) boolean\lcalculateBase(int,double) double\lapplyDiscount(double,double) double\lcalculateVat(double,double) double\lcalculateTotal(int,double,double,double) double\lcalculateTotal(int,double,double) double\lparseQuantity(String) int\lparseDecimal(String,String) double\lvalidate(...); validateDiscount(...); validateAmount(...)\lrequired(...); readRequired(...); printCalculation(...)\l}"];
-self [label="{SelfCheck|main(String[])}"]; boundary [label="{BoundaryCheck|checks int|main(String[])\lcheck(...); close(...); rejects(...)\l}"];
-self -> app [style=dashed]; boundary -> app [style=dashed];
-}
